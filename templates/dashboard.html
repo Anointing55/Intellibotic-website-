@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Dashboard - IntelliBotics</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <img src="https://postimg.cc/xNz6HJX0" alt="Logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="pate.html">Pate</a></li>
+                <li><a href="sate.html">Sate</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="dashboard">
+        <h2>Welcome, User</h2>
+        <p>Your personal dashboard.</p>
+        
+        <!-- User Info -->
+        <div class="user-info">
+            <h3>Profile Information</h3>
+            <p>Name: <span id="user-name">John Doe</span></p>
+            <p>Email: <span id="user-email">john.doe@example.com</span></p>
+            <p>Status: <span id="user-status">Active</span></p>
+        </div>
+
+        <!-- Subscription Status -->
+        <div class="subscription-status">
+            <h3>Your Subscription</h3>
+            <p>Subscription Type: <span id="subscription-type">Basic</span></p>
+            <p>Expires On: <span id="subscription-expiry">2025-12-31</span></p>
+            <button onclick="window.location.href='subscription.html'">Upgrade Subscription</button>
+        </div>
+
+        <!-- Purchased AIs -->
+        <div class="purchased-ais">
+            <h3>Your AIs</h3>
+            <p>Pate - <span class="status">Active</span></p>
+            <p>Sate - <span class="status">Inactive</span></p>
+            <button onclick="window.location.href='buy-ai.html'">Buy More AIs</button>
+        </div>
+
+        <!-- Profile Settings -->
+        <div class="profile-settings">
+            <h3>Profile Settings</h3>
+            <button onclick="window.location.href='settings.html'">Edit Profile</button>
+            <button onclick="window.location.href='change-password.html'">Change Password</button>
+        </div>
+
+        <!-- Payment History -->
+        <div class="payment-history">
+            <h3>Payment History</h3>
+            <p>Last Payment: $100 - Pate Subscription</p>
+            <p>Last Payment Date: 2025-03-01</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 IntelliBotics. All rights reserved. <a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Service</a></p>
+    </footer>
+</body>
+</html>

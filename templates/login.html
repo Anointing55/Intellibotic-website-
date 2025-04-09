@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - IntelliBotics</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <img src="https://postimg.cc/xNz6HJX0" alt="Logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="pate.html">Pate</a></li>
+                <li><a href="sate.html">Sate</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="login-form">
+        <h2>Login</h2>
+        <form action="/submit-login" method="POST">
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <button type="submit" class="cta">Login</button>
+        </form>
+        <p>Don't have an account? <a href="signup.html">Sign Up here</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 IntelliBotics. All rights reserved. <a href="privacy.html">Privacy Policy</a></p>
+    </footer>
+</body>
+</html>
